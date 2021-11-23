@@ -19,7 +19,7 @@ plt.plot(dataset)
 plt.show()
 
 
-# X是给定时间(t)的乘客人数，Y是下一次(t + 1)的乘客人数。
+# X是给定时间(t)的流量数，Y是下一次(t + 1)的流量数。
 # 将值数组转换为数据集矩阵,look_back是步长。
 def create_dataset(dataset, look_back=1):
     dataX, dataY = [], []
